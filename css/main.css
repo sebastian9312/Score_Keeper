@@ -1,5 +1,86 @@
-p {
-  color: blue;
-  font-size: 50px;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.winner {
+  color: #28a745;
+  text-shadow: 1px 1px 1px rgb(66, 68, 90);
+}
+
+.looser {
+  color: #dc3545;
+  text-shadow: 1px 1px 1px rgb(66, 68, 90);
+}
+
+body {
+  background-color: #0f141a;
+  font-family: sans-serif;
+}
+
+.wrapper {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.app {
+  background-color: #f3f3f5;
+  color: #08122c;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 60vw;
+  height: 80vh;
+}
+.app__img {
+  background-image: url("../images/table-tennis-4046277_640.jpeg");
+  background-size: cover;
+  background-position: center;
+  height: 600px;
+}
+
+.app__score-area {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 80px;
+}
+.app__score-area .title {
+  width: 100%;
+  font-size: 28px;
+  letter-spacing: 2px;
+  padding: 20px 0 20px 100px;
+  border-bottom: 2px solid #0f141a;
+}
+.app__score-area .score {
+  font-size: 52px;
+}
+
+.app__buttons {
+  display: flex;
+}
+.app__buttons button:nth-child(1) {
+  background-color: #28a745;
+}
+.app__buttons button:nth-child(2) {
+  background-color: #dc3545;
+}
+.app__buttons button:nth-child(3) {
+  background-color: #ffc008;
+}
+
+button {
+  flex-grow: 1;
+  padding: 30px;
+  font-size: 20px;
+  border: none;
+  color: #f3f3f5;
+  text-shadow: 1px 1px 1px rgb(66, 68, 90);
+  cursor: pointer;
 }
 /*# sourceMappingURL=main.css.map */

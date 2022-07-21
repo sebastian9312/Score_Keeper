@@ -1,0 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.winner {
+  color: #28a745;
+  text-shadow: 1px 1px 1px rgba(66, 68, 90, 1);
+}
+.looser {
+  color: #dc3545;
+  text-shadow: 1px 1px 1px rgba(66, 68, 90, 1);
+}
